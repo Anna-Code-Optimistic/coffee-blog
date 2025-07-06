@@ -197,6 +197,7 @@ footer {
         line-height: 50px;
         margin: 0 0 0.5rem;
     }
+}
     /*Apply bigger top margin for devices with breakpoint 768px and above to have main content displayed*/
     main {
         margin-top: 65px;
@@ -207,10 +208,50 @@ footer {
         width:80%;
         
     }
-}
+    /*Reasons sections*/
+    #benefits-business, #benefits-education  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #benefits-business > div, #benefits-education > div  {
+        width: 70%;
+    }
+
+    #benefits-education > div  {
+        text-align: end;
+        align-self: flex-end;
+    }
 /*Media query: tablets and larger devices (992px and up)*/
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px dotted rgb(105, 102, 102) ;
     }    
     }
+
+@media screen and (min-width:1200px) {
+   #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-business {
+        order: 1;
+    }
+
+    #benefits-business > div {
+        align-self: flex-start;
+    }
+
+    #benefits-education > div {
+        align-self: flex-end;
+    }
+}
