@@ -53,6 +53,18 @@ h1 {
 .active {
     border-bottom: 1px dotted rgb(105, 102, 102) ;
 }
+
+/* Update the navbar style with the dropdown menu*/
+nav {
+position: absolute;
+background-color: beige;
+padding: 0 1rem;
+width: 100%;
+left:0;
+box-shadow: 0 2px 2px lightgray;
+display: none;
+}
+
 /*Main*/
 main {
     background-color: lightgray;
