@@ -164,6 +164,7 @@ main {
 #photos {
     line-height: 0;
 }
+
 /*Footer*/
 footer {
     background-color: rgb(97, 62, 62);
@@ -179,6 +180,15 @@ footer {
 #social-networks i {
     font-size: 250%;
     padding: 10%;
+}
+
+/*Media query: devices larger than 576px (576px and up)*/
+@media screen and (min-width:576px) {
+    /*Gallery*/
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 /*Media query: tablets and larger devices (768px and up)*/
 @media screen and (min-width:768px) {
@@ -206,7 +216,6 @@ footer {
         line-height: 50px;
         margin: 0 0 0.5rem;
     }
-}
     /*Apply bigger top margin for devices with breakpoint 768px and above to have main content displayed*/
     main {
         margin-top: 65px;
@@ -231,11 +240,21 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    /*Gallery*/
+    #photos {
+        column-count: 2;
+    }
+}
 /*Media query: tablets and larger devices (992px and up)*/
 @media screen and (min-width:992px) {
     #menu a:hover {
         border-bottom: 1px dotted rgb(105, 102, 102) ;
     }    
+    /*Gallery*/
+    #photos {
+        column-count: 2;
+    }
     }
 
 @media screen and (min-width:1200px) {
@@ -262,5 +281,9 @@ footer {
 
     #benefits-education > div {
         align-self: flex-end;
+    }
+    /*Gallery*/
+    #photos {
+        column-count: 3;
     }
 }
