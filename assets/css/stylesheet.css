@@ -38,6 +38,21 @@ h1 {
     letter-spacing: 3px;
     color: rgb(46, 33, 33);
 }
+
+#menu
+{
+    font-size: 120%;
+    letter-spacing: 4px;
+    list-style-type: none;
+} 
+
+#menu > li {
+    margin-bottom: 1rem;
+}
+
+.active {
+    border-bottom: 1px dotted rgb(105, 102, 102) ;
+}
 /*Main*/
 main {
     background-color: lightgray;
