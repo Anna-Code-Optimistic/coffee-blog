@@ -21,6 +21,10 @@ body {
 header {
     background-color: lightblue;
 }
+
+h1 {
+    font-family: 'Lato', sans-serif;
+}
 /*Main*/
 main {
     background-color: lightgray;
