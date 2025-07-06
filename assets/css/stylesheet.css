@@ -91,9 +91,20 @@ main {
 }
 /*Footer*/
 footer {
-    background-color: whitesmoke;
+    background-color: rgb(97, 62, 62);
 }
+footer #social-networks {
+    text-align: center;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}    
 
+#social-networks i {
+    font-size: 250%;
+    padding: 10%;
+}
 /*Media query: tablets and larger devices (768px and up)*/
 @media screen and (min-width:768px) {
     /*Header*/
