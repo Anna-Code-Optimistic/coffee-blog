@@ -84,24 +84,22 @@ nav {
 
 /*Main*/
 main {
-    background-color: lightgray;
     /*Make main content of the page to take any surplus space to push footer down*/
     flex: 1 0 auto;
-    margin-top: 60px;
-}
-/*Hero section*/
-main #hero-image {
-    height: 600px;
-    width: 100%;
-    background-color: cornflowerblue;
+    margin-top: 47px;
 }
 
+/* Hero section */
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/pexels-emrecan-2079438.jpg") no-repeat center center/ cover;
+}
 /*Footer*/
 footer {
     background-color: rgb(97, 62, 62);
 }
-
-footer #social-networks {
+#social-networks {
     text-align: center;
     padding: 15px 0;
     display: flex;
