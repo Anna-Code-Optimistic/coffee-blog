@@ -17,6 +17,14 @@ body {
     font-family: 'Lexend', sans-serif;
 }
 
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(46, 33, 33);
+}
+
 /*Header*/
 header {
     background-color: white;
@@ -33,13 +41,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: rgb(46, 33, 33);
 }
 
 #menu
@@ -95,6 +96,23 @@ main {
     height: 100vh;
     background: url("../images/pexels-emrecan-2079438.jpg") no-repeat center center/ cover;
 }
+
+#cover-text {
+    /* Applie the background colour with opacity to the h2 text*/
+    background-color: rgba(233, 225, 225, 0.5);
+    font-size: 105%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text> h3 {
+    color: rgb(17, 11, 2);
+}
+
 /*Footer*/
 footer {
     background-color: rgb(97, 62, 62);
@@ -140,6 +158,12 @@ footer {
     /*Apply bigger top margin for devices with breakpoint 768px and above to have main content displayed*/
     main {
         margin-top: 65px;
+    }
+
+    /*Hero*/
+    #cover-text {
+        width:80%;
+        
     }
 }
 /*Media query: tablets and larger devices (992px and up)*/
