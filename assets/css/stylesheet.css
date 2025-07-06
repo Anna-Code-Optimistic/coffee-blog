@@ -155,6 +155,15 @@ main {
     justify-content: center;
 }
 
+/*Gallery page style*/
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
 /*Footer*/
 footer {
     background-color: rgb(97, 62, 62);
