@@ -115,4 +115,13 @@ footer {
     .nav-toggle-label {
         display: none;
     }
+    #logo {
+        font-size: 200%;
+        line-height: 50px;
+        margin: 0 0 0.5rem;
+    }
+    /*Apply bigger top margin for devices with breakpoint 768px and above to have main content displayed*/
+    main {
+        margin-top: 65px;
+    }
 }
