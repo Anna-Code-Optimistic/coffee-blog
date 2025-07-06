@@ -31,7 +31,48 @@
         </nav>
     </header>
     <!-- Section of the page for the majority of content-->
-    <main>Main Content adlsglkdwjnglkdjglkdjskl </main>
+    <main> 
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-envelope-open-text"></i> Stay caffeinated with our Newsletter</h2>
+                <p> Would you like to stay in the loop for what's brewing in our caffeinated space? Join our newsletter today! </p>
+                <br>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <p> Are you mastering your brewing skills? Or more into keeping up with the local news?</p>
+                    <br>
+                    <div>
+                        <label for="brewing-tips"> Tips </label>
+                        <input type="radio" name="news-type" id="brewing-tips" value="brewing-tips" required checked>
+                    </div>
+                    <div>
+                        <label for="business-news">News</label>
+                        <input type="radio" name="news-type" id="business-news" value="business-news" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" name="news-type" id="both" value="both" required>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <label for="general"> Share your thoughts with us!</label>
+                    <br>
+                    <textarea name="general" id="general" rows="10" cols="30" placeholder="Thoughts? Suggestions? Ideas? Please make sure to share them with us!"></textarea>
+                </div>
+                <button type="submit" class="join-button"> Sign up today</button>
+            </form>
+        </section>
+    </main>
     <!-- Footer section for social icons-->
     <footer>
         <ul id="social-networks">
