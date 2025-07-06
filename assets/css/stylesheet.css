@@ -89,10 +89,18 @@ main {
     flex: 1 0 auto;
     margin-top: 60px;
 }
+/*Hero section*/
+main #hero-image {
+    height: 600px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
 /*Footer*/
 footer {
     background-color: rgb(97, 62, 62);
 }
+
 footer #social-networks {
     text-align: center;
     padding: 15px 0;
