@@ -45,7 +45,7 @@ header a {
 
 /* Form */
 #signup {
-    background-image: url("../images/Brother\ Hobart\ \(10\).JPG");
+    background-image: url("../images/brother-hobart-10.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -194,8 +194,8 @@ main {
     margin: 5px 0;
 }
 
-#cirle-cover-bg {
-    background: url(../images/Coffee\ Bean\ .png) no-repeat top center/ cover;
+#circle-cover-bg {
+    background: url(../images/coffee-bean\ .png) no-repeat top center/ cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -217,6 +217,7 @@ main {
 
 #photos {
     line-height: 0;
+
 }
 
 /*Footer*/
