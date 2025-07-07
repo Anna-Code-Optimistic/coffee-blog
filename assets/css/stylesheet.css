@@ -25,6 +25,14 @@ h1, h2, h3 {
     color: rgb(46, 33, 33);
 }
 
+p {
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    background-color: rgb(46, 33, 33) ;
+}
+
 /*Header*/
 header {
     background-color: white;
@@ -238,6 +246,7 @@ footer {
 
 /*Media query: devices larger than 576px (576px and up)*/
 @media screen and (min-width:576px) {
+
     /*Gallery*/
     #photos {
         column-count: 2;
@@ -275,6 +284,10 @@ footer {
     main {
         margin-top: 65px;
     }
+    /*Headlines*/
+    h1, h2, h3 {
+    margin-top: auto;
+}
 
     /*Hero*/
     #cover-text {
