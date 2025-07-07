@@ -242,7 +242,7 @@ footer {
     /*Gallery*/
     #photos {
         column-count: 2;
-        column-gap: 0;
+        column-gap: px 8px;
     }
 
 }
