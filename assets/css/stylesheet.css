@@ -217,7 +217,6 @@ main {
 
 #photos {
     line-height: 0;
-
 }
 
 /*Footer*/
@@ -242,7 +241,7 @@ footer {
     /*Gallery*/
     #photos {
         column-count: 2;
-        column-gap: px 8px;
+        column-gap: 0;
     }
 
 }
