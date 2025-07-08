@@ -6,7 +6,9 @@ A simple responsive gallery page dedicated to Dublin's cafes and coffee life—f
 It is the three page website: home, gallery and and a sign-up page. In the future, the blog page will posts will be added. 
 
 ## Goal
-The page is to showcase Dublin's vibrant coffee scene by showcasing a gallery of photos
+The page is to showcase Dublin's vibrant coffee scene. As a keen coffee drinker, I visit a lot of local places, which encouraged me to create an online page for like-minded people interested in the local coffee scene. 
+
+The newsletter is to help people stay up to date on news from businesses and on any potential updates and tips shared by cafes and roasters.
 
 ## Features
 - Blog index and individual post pages
@@ -16,6 +18,9 @@ The page is to showcase Dublin's vibrant coffee scene by showcasing a gallery of
 
 ## Tech Stack
 - HTML, CSS, JavaScript
+
+## Wireframe
+My [wireframe](https://www.canva.com/design/DAGsnYRZqv8/kdioBsraQTYnY2qvyZ1YNg/view?utm_content=DAGsnYRZqv8&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha5e512f5f4). It is created in Canva.
 
 ## Media
 Most of the images used comes from my own library. However, there are a few exeptions:
@@ -30,9 +35,15 @@ Afta Putta Gunawan](https://www.pexels.com/photo/assorted-decors-with-brown-rack
 ## Fonts
 I used two fonts from Google Fonts: [Lato and Lexend](https://fonts.google.com/share?selection.family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Lexend:wght@100..900). 
 
-## Issues and Solutions
+## Code
 I followed the Love Running project to help build my page. The structure is very similar, but I applied different fonts, a custom colour palette, and new imagery. I also added a comment box to the sign-up form.
 
+## Testing
+I used online validators as recommended to test my HTML and CSS codes.
+HTML Validator
+CSS Validator
+
+## Issues and Solutions
 On my homepage, when applying the background image, I initially attached it to this section:
 
    < main>

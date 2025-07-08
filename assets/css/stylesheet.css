@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     /*Generic project styles*/
-    color: rgb(51, 23, 23);
+    color: #331717;
     font-family: 'Lexend', sans-serif;
 }
 
@@ -22,7 +22,7 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: rgb(46, 33, 33);
+    color: #2e2121;
 }
 
 p {
@@ -30,7 +30,7 @@ p {
     font-family: 'Lato', sans-serif;
     letter-spacing: 2px;
     color: whitesmoke;
-    background-color: rgb(46, 33, 33) ;
+    background-color: #2e2121 ;
 }
 
 /*Header*/
@@ -62,7 +62,7 @@ header a {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: #3c3c3c99;
     padding: 30px;
 }
 
@@ -160,7 +160,7 @@ main {
 
 #cover-text {
     /* Applie the background colour with opacity to the h2 text*/
-    background-color: rgba(233, 225, 225, 0.5);
+    background-color: #e9e1e180;
     font-size: 105%;
     position: absolute;
     text-align:right;
@@ -172,7 +172,7 @@ main {
 }
 
 #cover-text > h2, #cover-text> h3 {
-    color: rgb(17, 11, 2);
+    color: #110b02;
 }
 
 /* Reasons section */
@@ -229,7 +229,7 @@ main {
 
 /*Footer*/
 footer {
-    background-color: rgb(97, 62, 62);
+    background-color: #613e3e;
 }
 #social-networks {
     text-align: center;
